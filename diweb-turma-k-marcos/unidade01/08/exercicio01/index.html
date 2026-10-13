@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio01</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        h1 {
+            font-size: 50px;
+            color: blueviolet;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: blueviolet;
+        }
+
+        #um {
+            color: crimson;
+            font-family: cursive;
+        }
+
+        .dois {
+            color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Tipos estilos em CSS</h1>
+    <h2>01 Estilo inline</h2>
+    <p class="dois">
+        Permite a estilização dos elementos individualmente.
+        Utilizamos o atributo style para criar a regra.
+        Estiliza um componente por vez.
+        Não tem reaproveitamento.
+    </p>
+    <h2>02 Estilo incorporado</h2>
+    <p id="um">
+        Permite a estilização de mais de um elemento dentro da página.
+        É utilizado quando precisamos definir o estilo para vários elementos dentro de uma mesma página.
+        Utiliza a tag .
+        Permite reaproveitamento somente dentro da mesma página.
+    </p>
+    <h2>01 Estilo externo</h2>
+    <p class="dois">
+        Utiliza um arquivo externo que é ligado a uma ou mais páginas HTML.
+        O mais indicado e utilizado.
+        Criamos um arquivo externo com todas as regras para os elementos.
+        Utiliza a tag para sua definição.
+        Pode ser reaproveitado por diversas páginas.
+    </p>
+</body>
+
+</html>
